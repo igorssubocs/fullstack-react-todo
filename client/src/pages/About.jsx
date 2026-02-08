@@ -12,10 +12,6 @@ const About = () => {
 							Front End Developer with expertise in building modern, responsive web applications. 
 							Passionate about creating intuitive user experiences and writing clean, maintainable code.
 						</p>
-						<div className="flex items-center gap-2 text-neutral-600">
-							<span className="font-medium">Author:</span>
-							<span>Igors Subocs</span>
-						</div>
 					</div>
 				</article>
 				<Stack />
