@@ -34,14 +34,14 @@ const Task = ({ onTaskCreated }) => {
 					value={title}
 					onChange={(e) => setTitle(e.target.value)}
 					placeholder="Write task name"
-					className="p-5 w-full rounded-xl ring-1 ring-neutral-200"
+					className="p-5 w-full rounded-xl ring-1 ring-neutral-200 focus:ring-green-500 outline-none"
 				/>
 				<input 
 					type="text" 
 					value={description}
 					onChange={(e) => setDescription(e.target.value)}
 					placeholder="Write task description" 
-					className="p-5 w-full rounded-xl ring-1 ring-neutral-200"
+					className="p-5 w-full rounded-xl ring-1 ring-neutral-200 focus:ring-green-500 outline-none"
 				/>
 				<Button type="submit" />
 			</form>

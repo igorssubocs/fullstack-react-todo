@@ -23,7 +23,7 @@ const SearchForm = ({ onSearch }) => {
 					value={query}
 					onChange={(e) => setQuery(e.target.value)}
 					placeholder="Search tasks..."
-					className="w-full py-4 pl-12 pr-4 rounded-xl ring-1 ring-neutral-200 focus:ring-2 focus:ring-blue-500 outline-none"
+					className="w-full py-4 pl-12 pr-4 rounded-xl ring-1 ring-neutral-200 focus:ring-2 focus:ring-green-500 outline-none"
 				/>
 				{query && (
 					<button
